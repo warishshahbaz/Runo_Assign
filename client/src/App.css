@@ -1,0 +1,83 @@
+.nav {
+  width: 100%;
+  background-color: skyblue;
+  display: flex;
+}
+.nav ul {
+  padding: 3px;
+  margin: 0px;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav ul li a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav .right_login {
+  position: absolute;
+  right: -3px;
+  float: right;
+}
+.img {
+  margin-left: 20px;
+  border-radius: 50%;
+  padding: 2px;
+}
+.addproducts{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.addproducts form{
+  width: 400px;
+}
+.product_list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.product_list ul{
+  text-align: center;
+  margin: 0px;
+}
+.product_list ul li{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid skyblue;
+  width: 150px;
+
+}
+.cards{
+  width: 300px;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.signup {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 23px;
+  font-family: sans-serif;
+}
+.form {
+  width: 60vw;
+  height: 0vh;
+}
