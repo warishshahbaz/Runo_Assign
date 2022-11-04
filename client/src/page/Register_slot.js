@@ -13,9 +13,7 @@ const SignUp = () => {
 
     useEffect(()=>{
         let auth = localStorage.getItem('user');
-        // if(auth){
-        //     navigate('/');
-        // }
+       
     })
     const submitHandler = async (e) =>{
         e.preventDefault();
@@ -32,9 +30,7 @@ const SignUp = () => {
         localStorage.setItem("user",JSON.stringify(result.result));
         localStorage.setItem("token",JSON.stringify(result.auth));
      
-        // if(result){
-        //     navigate('/');
-        // }
+       
     }
    
     

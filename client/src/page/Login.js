@@ -9,9 +9,7 @@ const Login = () => {
 
   useEffect(() => {
     const auth = localStorage.getItem("user");
-    // if (auth) {
-    //   navigate("/");
-    // }
+  
   }, []);
   const submitHandler = async (e) => {
     e.preventDefault();
